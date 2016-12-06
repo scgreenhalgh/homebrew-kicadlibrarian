@@ -41,8 +41,10 @@ class Kicadlibrarian < Formula
           --with-zlib=builtin
           --with-expat=builtin
           --without-liblzma
+          --disable-mediactrl
+          --with-quicktime
           --with-macosx-version-min=#{MacOS.version}
-          --enable-universal_binary=i386,x86_64
+          --enable-universal_binary=i386,x86_6
           CC=#{ENV.cc}
           CXX=#{ENV.cxx}
         ]
