@@ -44,7 +44,7 @@ class Kicadlibrarian < Formula
           --disable-mediactrl
           --with-quicktime
           --with-macosx-version-min=#{MacOS.version}
-          --enable-universal_binary=i386,x86_6
+          --enable-universal_binary=i386,x86_64
           CC=#{ENV.cc}
           CXX=#{ENV.cxx}
         ]
